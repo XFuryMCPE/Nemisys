@@ -19,7 +19,7 @@ NEMISYS_FILE=""
 
 if [ "$NEMISYS_FILE" == "" ]; then
 	if [ -f ./nemisys*.jar ]; then
-		NEMISYS_FILE="./nemisys-1.0dev.jar"
+		NEMISYS_FILE="./nemisys*.jar"
 	else
 		echo "[ERROR] Nemisys JAR not found!"
 		exit 1
